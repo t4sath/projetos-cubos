@@ -8,3 +8,14 @@ Você deverá RETORNAR a nova pontuação do jogador.
 
 ##Código
 
+function solucao(pontuacao: number, pontosConquistados: number): number {
+    let pontuacao: number = 300
+    let pontosConquistados: number = 10
+     const novaPontuacao: number = pontuacao + pontosConquistados
+  
+    console.log(novaPontuacao)
+    return novaPontuacao
+  }
+  
+  export default solucao;
+  
