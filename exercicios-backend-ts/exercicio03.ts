@@ -8,4 +8,19 @@ Você deve substituir |FULANO|, |CLASSE| e |PONTUACAO_ATUAL| por, respectivament
 
 
 ##Código
-
+function solucao(
+    nomePersonagem: string,
+    classe: string,
+    pontuacao: number
+  ): string {
+    const nomePersonagem: string = 'Shaolin Matador de Porco'
+    const classe: string = 'Mago'
+    const pontuacao: number = 320
+     const dadosPersonagem: string = 'OLÁ, ' + nomePersonagem + '. VOCE É UM ' + classe + ' COM PONTUAÇÃO ATUAL DE ' + pontuacao
+    
+    console.log(dadosPersonagem)
+    return dadosPersonagem
+  }
+  
+  export default solucao;
+  
