@@ -6,3 +6,14 @@ O IMC é cálculado como: peso / altura * altura
 Você deve RETORNAR o IMC.
 
 ##Código
+function solucao(peso: number, altura: number): number {
+    const peso: number = 100
+    const altura: number = 2
+     const imc: number = peso / (altura * altura)
+  
+    console.log(imc)
+    return imc
+  }
+  
+  export default solucao;
+  
