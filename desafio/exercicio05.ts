@@ -1,21 +1,21 @@
-##Desconto para grandes compras 
+// ##Desconto para grandes compras 
 
-##Problema
-A loja onde trabalha deseja incentivar o consumo dos clientes oferecendo descontos para compras que excedam um determinado valor. No entanto, a loja quer garantir que o desconto só seja aplicado quando o valor total dos produtos no carrinho for maior que um limite específico.
-O valor a ser pago pela compra é dado por:
-valor pago = valor compra - valor compra * desconto
-Você, como desenvolvedor contratado, está responsável por implementar tal funcionalidade.
+// ##Problema
+// A loja onde trabalha deseja incentivar o consumo dos clientes oferecendo descontos para compras que excedam um determinado valor. No entanto, a loja quer garantir que o desconto só seja aplicado quando o valor total dos produtos no carrinho for maior que um limite específico.
+// O valor a ser pago pela compra é dado por:
+// valor pago = valor compra - valor compra * desconto
+// Você, como desenvolvedor contratado, está responsável por implementar tal funcionalidade.
 
-A entrada do seu programa será composta por três variáveis:
-precosCarrinho: array de números em que cada posição representa o preço de um item comprado pelo cliente que está no carrinho de compras;
-minimoParaDesconto: variável do tipo number que indica o valor mínimo da compra, dado pelo soma dos valores dos itens do carrinho, para que a pessoa tenha o desconto aplicado;
-desconto: variável do tipo number que indica o valor do desconto aplicado à compra.
+// A entrada do seu programa será composta por três variáveis:
+// precosCarrinho: array de números em que cada posição representa o preço de um item comprado pelo cliente que está no carrinho de compras;
+// minimoParaDesconto: variável do tipo number que indica o valor mínimo da compra, dado pelo soma dos valores dos itens do carrinho, para que a pessoa tenha o desconto aplicado;
+// desconto: variável do tipo number que indica o valor do desconto aplicado à compra.
 
-Você deve RETORNAR o valor a ser pago pelo cliente.
+// Você deve RETORNAR o valor a ser pago pelo cliente.
 
 
 
-##Codigo
+// ##Codigo
 'use strict';
 
 import { WriteStream, createWriteStream } from "fs";

@@ -1,25 +1,25 @@
-##Figuras geométricas
+// ##Figuras geométricas
 
-##Problema
-Você foi contratado por uma escola para desenvolver um programa que vai auxiliar os alunos a memorizarem as figuras geométricas que eles aprendem em sala, que são as seguintes:
-triângulo: figura geométrica com três lados;
-quadrilátero: figura geométrica com quatro lados;
-pentágono: figura geométrica com cinco lados;
-hexágono: figura geométrica com seis lados;
-heptágono: figura geométrica com sete lados.
+// ##Problema
+// Você foi contratado por uma escola para desenvolver um programa que vai auxiliar os alunos a memorizarem as figuras geométricas que eles aprendem em sala, que são as seguintes:
+// triângulo: figura geométrica com três lados;
+// quadrilátero: figura geométrica com quatro lados;
+// pentágono: figura geométrica com cinco lados;
+// hexágono: figura geométrica com seis lados;
+// heptágono: figura geométrica com sete lados.
 
-A entrada do seu programa será composta por uma variável chamada quatidadeLados, do tipo number, e que armazena a quantidade de lados da figura consultada.
+// A entrada do seu programa será composta por uma variável chamada quatidadeLados, do tipo number, e que armazena a quantidade de lados da figura consultada.
 
-Seu programa deverá RETORNAR:
-TRIANGULO: caso a figura tenha três lados;
-QUADRILATERO: caso a figura tenha quatro lados;
-PENTAGONO: caso a figura tenha cinco lados;
-HEXAGONO: caso a figura tenha seis lados;
-HEPTAGONO: caso a figura tenha sete lados;
+// Seu programa deverá RETORNAR:
+// TRIANGULO: caso a figura tenha três lados;
+// QUADRILATERO: caso a figura tenha quatro lados;
+// PENTAGONO: caso a figura tenha cinco lados;
+// HEXAGONO: caso a figura tenha seis lados;
+// HEPTAGONO: caso a figura tenha sete lados;
 
 
 
-##Codigo
+// ##Codigo
 'use strict';
 
 import { WriteStream, createWriteStream } from "fs";

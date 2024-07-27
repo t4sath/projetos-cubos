@@ -1,18 +1,18 @@
-##Cerveja gelando mais rápido
+// ##Cerveja gelando mais rápido
 
-##Problema 
-Em uma repostagem intitulada "Como gelar cerveja em três minutos", a revista Galileu explica a ciência por traz da técnica muito conhecida para fazer com que a cerveja fique gelada mais rápido: jogar sal no isopor com gelo. Segundo a revista:
-"O sal se dissolve facilmente na água e reduz seu ponto de congelamento. Pura (sem sal), a água congela a cerca de 0 ºC. Já a água com sal precisa de uma temperatura menor, que pode chegar a dezenas de graus abaixo de zero. Quando o sal é colocado no gelo, parte dos cubos derretem, “roubando” calor durante a troca de estado físico (de sólido para líquido) e esfriando a mistura como um todo. Além disso, o sal dissolvido provoca uma reação que reduz ainda mais a temperatura da mistura."
-Você foi contratado pela Ambev para desenvolver o software (programa) do novo isopor inteligente da empresa. Esse isopor adiciona sal no gelo assim que é fechado e um temporizador é acionado. Esse temporizado mostra quanto tempo falta para que a cerveja esteja gelada, que é de aproximadamente 10 minutos.
+// ##Problema 
+// Em uma repostagem intitulada "Como gelar cerveja em três minutos", a revista Galileu explica a ciência por traz da técnica muito conhecida para fazer com que a cerveja fique gelada mais rápido: jogar sal no isopor com gelo. Segundo a revista:
+// "O sal se dissolve facilmente na água e reduz seu ponto de congelamento. Pura (sem sal), a água congela a cerca de 0 ºC. Já a água com sal precisa de uma temperatura menor, que pode chegar a dezenas de graus abaixo de zero. Quando o sal é colocado no gelo, parte dos cubos derretem, “roubando” calor durante a troca de estado físico (de sólido para líquido) e esfriando a mistura como um todo. Além disso, o sal dissolvido provoca uma reação que reduz ainda mais a temperatura da mistura."
+// Você foi contratado pela Ambev para desenvolver o software (programa) do novo isopor inteligente da empresa. Esse isopor adiciona sal no gelo assim que é fechado e um temporizador é acionado. Esse temporizado mostra quanto tempo falta para que a cerveja esteja gelada, que é de aproximadamente 10 minutos.
 
-A entrada do seu programa é composta por uma variável:
-tempoTemporizador: variável do tipo number que armazena quantos minutos se passaram desde que o sal foi adicionado no isopor.
+// A entrada do seu programa é composta por uma variável:
+// tempoTemporizador: variável do tipo number que armazena quantos minutos se passaram desde que o sal foi adicionado no isopor.
 
-Seu programa deve RETORNAR quanto tempo falta, em minutos, para a cerveja ficar gelada.
+// Seu programa deve RETORNAR quanto tempo falta, em minutos, para a cerveja ficar gelada.
 
 
 
-##Código
+// ##Código
 'use strict';
 
 import { WriteStream, createWriteStream } from "fs";
